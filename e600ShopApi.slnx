@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="e600ShopApi.Tests/e600ShopApi.Tests.csproj" />
+  <Project Path="e600ShopApi/e600ShopApi.csproj" />
+</Solution>

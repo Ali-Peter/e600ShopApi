@@ -1,0 +1,37 @@
+# Build output
+bin/
+obj/
+dist/
+out/
+
+# IDE / user files
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.user
+*.suo
+*.userosscache
+
+# Secrets — never commit local configuration
+appsettings.*.local.json
+secrets.json
+*.pfx
+*.key
+
+# Test / coverage results
+TestResults/
+coverage*.json
+coverage*.xml
+*.trx
+
+# Misc
+*.log
+.DS_Store
+
+# Local environment configuration
+appsettings.Development.json
+appsettings.Local.json
